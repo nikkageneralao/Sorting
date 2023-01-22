@@ -7,7 +7,7 @@
 # _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 ## Selection sort
-def sort(my_array):
+def selection_sort(my_array):
     for i in range (9):
         min_position = i
         for j in range(i, 10):
