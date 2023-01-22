@@ -18,6 +18,8 @@ def sort(my_array):
         my_array[i] = my_array[min_position]
         my_array[min_position] = temp_position
 
+        print(my_array)
+
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
 sort(my_array)
 print(my_array)
