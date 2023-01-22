@@ -15,6 +15,8 @@ def sort(my_array):
                 my_array[j] = my_array[j + 1]
                 my_array[j + 1] = temp_position
 
+                print(my_array)
+
 
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
 sort(my_array)
