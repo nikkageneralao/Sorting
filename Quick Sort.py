@@ -30,6 +30,10 @@ def partition(my_array, left, right):
     if my_array[i] > pivot:
         my_array[i], my_array[right] = my_array[right], my_array[i]
 
+        print(my_array)
+
     return i
 
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
+quick_sort(my_array, 0, len(my_array) - 1)
+print(my_array)
