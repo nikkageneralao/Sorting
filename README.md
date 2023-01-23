@@ -1,6 +1,6 @@
 # Sorting
 
-# Credits
+## Credits
 [Selection Sort #1](https://www.youtube.com/watch?v=Z3dCjzhjAWA&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=4&t=4s)
 
 [Selection Sort #2](https://www.youtube.com/watch?v=5KjapFQNxUo&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=6)
