@@ -7,5 +7,29 @@
 # _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 ## Quick sort
+def quick_sort(my_array, left, right):
+    if left < right:
+        partition_pos = partition(my_array, left, right)
+        quick_sort(my_array, left, partition_pos - 1)
+        quick_sort(my_array, partition_pos + 1, right)
+
+def partition(my_array, left, right):
+    i = left
+    j = right - 1
+    pivot = my_array[right]
+
+    while i < j:
+        while i < right and my_array[i] < pivot:
+            i += 1
+        while j > left and my_array[j] >= pivot:
+            j -= 1
+
+        if i < j:
+            my_array[i], my_array[j] = my_array[j], my_array[i]
+
+    if my_array[i] > pivot:
+        my_array[i], my_array[right] = my_array[right], my_array[i]
+
+    return i
 
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
