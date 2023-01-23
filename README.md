@@ -1,8 +1,8 @@
 # Sorting
 
 # Credits
-#       [Selection Sort #1](https://www.youtube.com/watch?v=Z3dCjzhjAWA&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=4&t=4s)
-#       [Selection Sort #2](https://www.youtube.com/watch?v=5KjapFQNxUo&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=6)
+        [Selection Sort #1](https://www.youtube.com/watch?v=Z3dCjzhjAWA&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=4&t=4s)
+        [Selection Sort #2](https://www.youtube.com/watch?v=5KjapFQNxUo&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=6)
 #       [Bubble Sort #1](https://www.youtube.com/watch?v=A6m-g0SPzt0&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=3)
 #       [Bubble Sort #2](https://www.youtube.com/watch?v=Vca808JTbI8&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=5)
 #       [Insertion Sort #1](https://www.youtube.com/watch?v=qJsmUw3-QRA&list=PLcpCbfRRFUJBTI6vgCEVwE8TkZgqJMLNg&index=2)
