@@ -37,8 +37,13 @@ def merge_sort(my_array):
             j += 1
             k += 1
 
-            print(my_array)
+    print("\t\t", my_array)
 
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
+print("\n---------------------- MERGE SORT ----------------------")
+print("\nUnsorted List:", my_array)
+print("\n\t\t --------- Merge Sort Algorithm --------")
 merge_sort(my_array)
-print(my_array)
+print("\t\t ---------------------------------------")
+print("\nSorted List:", my_array)
+print("\n--------------------------------------------------------")
