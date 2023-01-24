@@ -11,6 +11,7 @@ def merge_sort(my_array):
     if len(my_array) > 1:
         left_array = my_array[:len(my_array) // 2]
         right_array = my_array[len(my_array) // 2:]
+        print("\t\t", left_array, right_array)
 
         merge_sort(left_array)
         merge_sort(right_array)
