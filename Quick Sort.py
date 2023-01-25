@@ -13,6 +13,7 @@ def quick_sort(my_array, left, right):
         quick_sort(my_array, left, partition_pos - 1)
         quick_sort(my_array, partition_pos + 1, right)
 
+
 def partition(my_array, left, right):
     i = left
     j = right - 1
@@ -30,10 +31,16 @@ def partition(my_array, left, right):
     if my_array[i] > pivot:
         my_array[i], my_array[right] = my_array[right], my_array[i]
 
-        print(my_array)
+        print("\n\t\t Pivot: ", pivot)
+        print("\t\t", my_array)
 
     return i
 
 my_array = [30, 40, 98, 94, 77, 43, 24, 9, 93, 82]
+print("\n---------------------- BUBBLE SORT ---------------------")
+print("\nUnsorted List:", my_array)
+print("\n\t\t --------- Bubble Sort Algorithm -------")
 quick_sort(my_array, 0, len(my_array) - 1)
-print(my_array)
+print("\t\t ---------------------------------------")
+print("\nSorted List:", my_array)
+print("\n--------------------------------------------------------")
