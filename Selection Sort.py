@@ -9,6 +9,7 @@
 ## Selection sort
 def selection_sort(my_array):
     print("\n\t\t ------- Selection Sort Algorithm ------")
+    print("\t\t", my_array)
     for i in range (9):
         min_position = i
         for j in range(i, 10):
