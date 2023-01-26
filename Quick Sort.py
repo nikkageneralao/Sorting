@@ -18,6 +18,7 @@ def partition(my_array, left, right):
     i = left
     j = right - 1
     pivot = my_array[right]
+    print("\n\t\t Pivot: ", pivot)
 
     while i < j:
         while i < right and my_array[i] < pivot:
@@ -27,7 +28,6 @@ def partition(my_array, left, right):
 
         if i < j:
             my_array[i], my_array[j] = my_array[j], my_array[i]
-            print("\n\t\t Pivot: ", pivot)
             print("\t\t", my_array)
 
     if my_array[i] > pivot:
